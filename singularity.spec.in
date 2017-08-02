@@ -43,6 +43,10 @@ Source: %{name}-%{version}.tar.gz
 ExclusiveOS: linux
 BuildRoot: %{?_tmppath}%{!?_tmppath:/var/tmp}/%{name}-%{version}-%{release}-root
 
+# This is needed to make sure that the RPMs will build on an otherwise
+# minimally configured build host or mock environment.
+BuildRequires: python
+
 %if %slurm
 # NOTE: doing a direct file dependency because experience has shown there are a few
 # site-local RPMs that have random pieces missing.
