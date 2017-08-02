@@ -26,3 +26,4 @@
     - Oleksandr Moskalenko <om@rc.ufl.edu>
     - Cedric Clerget <cedric.clerget@univ-fcomte.fr>
     - Mark Egan-Fuller <markeganfuller@googlemail.com>
+    - Troy Baer <tabaer@gmail.com>
